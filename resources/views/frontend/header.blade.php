@@ -19,6 +19,9 @@
     <link href="{{ asset('bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet">
 
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!-- +++++++++++++++++++++++++++++++++++++++++++
         Design and Development by Ali Hasan
         Contact: 01723629080
