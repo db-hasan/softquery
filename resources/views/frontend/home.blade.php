@@ -1,9 +1,7 @@
 @extends('frontend/layouts')
 @section('content')
     <main>
-        <!-- -----------------------------------------------------------
-        # serivce Section
-        ---------------------------------------------------------------->
+        <!-- # serivce Section -->
         <div id="banner" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true"
@@ -17,7 +15,7 @@
                     <div class="carousel-caption">
                         <div class="container banner-fade-element banner-fade-up">
                             <div class="banner-content">
-                                {{-- <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p> --}}
+                                <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p>
                                 <div class="banner-desc">
                                     <h1 class="banner-fade-element banner-fade-left">We are bringing overseas education
                                         within everyone’s
@@ -36,7 +34,7 @@
                         <div class="container banner-fade-element banner-fade-down">
                             <div class="banner-content w-100">
                                 <div class="text-center">
-                                    {{-- <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p> --}}
+                                    <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p>
                                     <div class="banner-desc">
                                         <h1 class="banner-fade-element banner-fade-left">Planning to study abroad?</h1>
                                         <div class="touch-apply">
@@ -53,7 +51,7 @@
                     <div class="carousel-caption">
                         <div class="container banner-fade-element banner-fade-up">
                             <div class="banner-content">
-                                {{-- <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p> --}}
+                                <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p>
                                 <div class="banner-desc">
                                     <h1 class="banner-fade-element banner-fade-left">A gateway to excellence in global
                                         education.</h1>
@@ -66,18 +64,8 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-        <!-- -----------------------------------------------------------
-        # serivce Section
-        ---------------------------------------------------------------->
+        <!-- # serivce Section -->
         <section id="serivce"
             style="background-image: url({{ asset('images/bg-content-03.jpg') }}); background-size: cover;">
             <div class="container">
@@ -278,10 +266,8 @@
             </div>
         </section>
 
-        <!-- -----------------------------------------------------------
-        # features Section
-        ---------------------------------------------------------------->
-        <section id="features" class="mb-5">
+        <!-- # features Section -->
+        <section id="features">
             <div class="container">
                 <div class="text-center fade-element fade-down">
                     <div class="section-title">
@@ -300,7 +286,7 @@
                     <div class="col-xl-4 text-center align-items-end">
                         <img src="{{ asset('images/features.png') }}" class="img-fluid p-4" alt="">
                     </div>
-    
+
                     <div class="col-xl-8 d-flex res_feature_img">
                         <div class="row align-self-center gy-4">
                             <div class="col-md-6 icon-box">
@@ -311,7 +297,7 @@
                                     </p>
                                 </div>
                             </div>
-    
+
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
@@ -320,7 +306,7 @@
                                     </p>
                                 </div>
                             </div>
-    
+
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
@@ -328,7 +314,7 @@
                                     <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
                                 </div>
                             </div>
-    
+
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
@@ -336,7 +322,7 @@
                                     <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
                                 </div>
                             </div>
-    
+
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
@@ -344,7 +330,7 @@
                                     <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
                                 </div>
                             </div>
-    
+
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
@@ -352,19 +338,17 @@
                                     <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
                                 </div>
                             </div>
-    
+
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </section>
 
-        
-        <!-- -----------------------------------------------------------
-        # stats Section
-        ---------------------------------------------------------------->
-        <section id="stats" class="stats section pb-5 mb-5">
+
+        <!-- # stats Section -->
+        <section id="stats">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-3 col-md-6 fade-element fade-down">
@@ -415,10 +399,8 @@
         </section>
 
 
-        <!-- -----------------------------------------------------------
-        # portfolio Section
-        ---------------------------------------------------------------->
-        <section id="portfolio" class="py-5">
+        <!-- # portfolio Section -->
+        <section id="portfolio">
             <div class="container">
                 <div class="text-center fade-element fade-down">
                     <div class="section-title">
@@ -441,20 +423,23 @@
                         <li class="btn py-3" data-filter="tap3">Markting</li>
                     </ul>
                 </div>
-    
+
                 <div class="row mt-4" id="filterable-cards">
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card1" data-filter="tap1">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_1.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_1.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Al Madina Pharmaceuticals</a></div>
                                         <span class="p-cate"><a href="#">Healthcare & Fitness</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -465,19 +450,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card2" data-filter="tap2">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_8.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_8.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">XFNTY GAMING</a></div>
                                         <span class="p-cate"><a href="#">Business Portfolio</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -488,19 +476,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card3" data-filter="tap3">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_2.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_2.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Shoe Master Footwear</a></div>
                                         <span class="p-cate"><a href="#">Business Portfolio</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -511,19 +502,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card1" data-filter="tap1">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_6.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_6.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Ahyan Jute Mills</a></div>
                                         <span class="p-cate"><a href="#">Business Portfolio</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -534,19 +528,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card2" data-filter="tap2">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_4.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_4.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Business Page</a></div>
                                         <span class="p-cate"><a href="#">e-Commerce</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -557,19 +554,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card3" data-filter="tap3">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_5.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_5.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Bd Current News24</a></div>
                                         <span class="p-cate"><a href="#">Blog & News Media</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -580,19 +580,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card1" data-filter="tap1">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_6.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_6.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Business Portfolio</a></div>
                                         <span class="p-cate"><a href="#">Portfolio</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -603,19 +606,22 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-md-3 col-sm-6 pb-4" data-name="card2" data-filter="tap2">
                         <div class="card p-0">
                             <div class="p_img position-relative">
-                                <img src="{{ asset('images/project_thumbnail_7.jpg') }}" class="card-img-top" alt="..." />
+                                <img src="{{ asset('images/project_thumbnail_7.jpg') }}" class="card-img-top"
+                                    alt="..." />
                                 <div class="product-btn position-absolute top-50 start-50 translate-middle ">
                                     <div class="text-center text-light p_heading my-3">
                                         <div class="p_name"><a href="#">Voetmanschap</a></div>
                                         <span class="p-cate"><a href="#">e-Commerce</a></span>
                                     </div>
                                     <div class="d-flex p_btn justify-content-center">
-                                        <a class="button" href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <a class="button" href="#">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="button" href="#">View Demo <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -630,9 +636,7 @@
             </div>
         </section>
 
-        <!-- -----------------------------------------------------------
-        # award Section
-        ---------------------------------------------------------------->
+        <!-- # award Section -->
         <section id="award"
             style="background-image: url( {{ asset('images/bg-content-05.png') }}); background-size: cover;">
             <div class="container">

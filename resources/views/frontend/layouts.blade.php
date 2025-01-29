@@ -232,7 +232,7 @@
                 </div>
             </div>
         </div>
- 
+
         <div style="padding-top: 65px;"></div>
     </header>
 
@@ -295,8 +295,8 @@
                                 <li><i class="fas fa-envelope me-2"></i><a class="text-dark"
                                         href="mailto:softqry@gmail.com">softqry@gmail.com</a></li>
                                 <li><i class="fas fa-phone me-2"></i> +880 1723629080</li>
-                                <li><i class="fa-solid fa-location-crosshairs me-2"></i> <a href="">Get Directions<i
-                                            class="fa-solid fa-square-arrow-up-right ms-2"></i></a></li>
+                                <li><i class="fa-solid fa-location-crosshairs me-2"></i> <a href="">Get
+                                        Directions<i class="fa-solid fa-square-arrow-up-right ms-2"></i></a></li>
                             </ul>
                         </div>
                     </div>

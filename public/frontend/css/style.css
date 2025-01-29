@@ -1,84 +1,73 @@
 /* +++++++++++++++++++++++++++++++++++++++++++
         Design and Development by Ali Hasan
         Contact: 01723629080
-        SOFTxONE.COM
+        softqry.com
   +++++++++++++++++++++++++++++++++++++++  */
-/* Fonts */
-:root {
-  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway", sans-serif;
-  --nav-font: "Poppins", sans-serif;
-}
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @media only screen and (max-width: 1400px) {
-  body .container {
-    max-width: 1200px;
-    width: 100%;
-  }
+    body .container {
+        max-width: 1200px !important;
+        width: 100%;
+    }
 }
-
-
 
 :root {
-  --background-color: #fff;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --accent-color: #ec0606;
-  --surface-color: #ffffff;
-  --contrast-color: #ffffff;
+    --background-color: #fff;
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --accent-color: #ec0606;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
 
-  --white: #fff;
-  --black: rgb(25, 25, 25);
-  --dark: #0000009a;
-  --gray: #22222227;
-  --border: #3e8da8;
-  --icon: #c72027;
-  --bg-color: #1c1c52;
-  --text-color: rgb(53, 53, 53);
-  --bg-form-color: #f5dbde94;
-  --bg-fcq-color: #f5dbde94;
+    --white: #fff;
+    --black: rgb(25, 25, 25);
+    --dark: #0000009a;
+    --gray: #22222227;
+    --border: #3e8da8;
+    --icon: #c72027;
+    --bg-color: #1c1c52;
+    --text-color: rgb(53, 53, 53);
+    --bg-form-color: #f5dbde94;
+    --bg-fcq-color: #f5dbde94;
 
-  --background-color: #ffffff; 
-  --default-color: #212529; 
-  --heading-color: #1c1c52; 
-  --accent-color: #e84545; 
-  --surface-color: #ffffff; 
-  --contrast-color: #ffffff;
+    --background-color: #ffffff;
+    --default-color: #212529;
+    --heading-color: #1c1c52;
+    --accent-color: #e84545;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
 
-
-  --background: rgba(10, 87, 87, 0.081);
-  --white: #fff;
-  --black: #000;
-  --dark: #0000009a;
-  --gray: #22222227;
-  --primary: #0245bc;
-  --heading: #37a001;
-  --sub-heading: #000000b9;
-  --button: #4154f1;
-  --box-shadow:-6px -6px 10px 0px #e9f4fc, 4px 3px 15px 0px rgba(157, 193, 229, 0.842);
+    --background: rgba(10, 87, 87, 0.081);
+    --white: #fff;
+    --black: #000;
+    --dark: #0000009a;
+    --gray: #22222227;
+    --primary: #0245bc;
+    --heading: #37a001;
+    --sub-heading: #000000b9;
+    --button: #4154f1;
+    --box-shadow: -6px -6px 10px 0px #e9f4fc,
+        4px 3px 15px 0px rgba(157, 193, 229, 0.842);
 }
 
-
-body{
-  background-color: var(--background);
+body {
+    background-color: var(--background);
 }
-
 
 .transparent-background {
-  --background-color: rgba(255, 255, 255, 0);
-  --surface-color: rgba(255, 255, 255, 0.1);
+    --background-color: rgba(255, 255, 255, 0);
+    --surface-color: rgba(255, 255, 255, 0.1);
 }
-
 
 /* Smooth scroll */
 :root {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /*--------------------------------------------------------------
@@ -121,7 +110,7 @@ body{
 /*--------------------------------------------------------------
   # Global css start
   --------------------------------------------------------------*/
-  .section-title span {
+.section-title span {
     font-size: 17px;
     font-weight: 300;
     color: var(--icon);
@@ -161,42 +150,40 @@ body{
     margin-left: 15px;
 }
 
-
 /*--------------------------------------------------------------
   # header start
   --------------------------------------------------------------*/
-#header .nav{
+#header .nav {
     background: var(--white);
     color: var(--black);
     border-bottom: 5px solid var(--border);
 }
-#header .nav_bar{
+#header .nav_bar {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    
 }
-#header .nav_bar .logo{
+#header .nav_bar .logo {
     width: 15%;
     height: 100%;
     font-size: 25px;
 }
-#header .nav_bar .logo img{
+#header .nav_bar .logo img {
     width: 100%;
 }
-#header .nav_bar .menu{
+#header .nav_bar .menu {
     width: 85%;
     height: 100%;
     padding: 0px 20px;
 }
-#header .nav_bar .menu ul{
+#header .nav_bar .menu ul {
     list-style: none;
     display: flex;
     justify-content: end;
     margin-bottom: 0px;
 }
-#header .nav_bar .menu ul li{
+#header .nav_bar .menu ul li {
     padding: 20px 10px;
     height: 100%;
     cursor: pointer;
@@ -205,13 +192,13 @@ body{
     font-weight: 500;
     position: relative;
 }
-#header .nav_bar .menu ul li a{
-        padding: 20px 10px !important;
+#header .nav_bar .menu ul li a {
+    padding: 20px 10px !important;
 }
-#header .nav_bar .menu ul li:hover{
+#header .nav_bar .menu ul li:hover {
     color: var(--dark);
 }
-#header .nav_bar .menu ul li a{
+#header .nav_bar .menu ul li a {
     text-decoration: none;
     color: var(--black);
     font-size: 16px;
@@ -224,10 +211,10 @@ body{
     color: var(--black);
     transition: all 0.3s ease;
 }
-#header .nav_bar .menu ul li a:hover{
+#header .nav_bar .menu ul li a:hover {
     color: var(--dark);
 }
-#header .nav_bar .menu ul li:hover .arrow{
+#header .nav_bar .menu ul li:hover .arrow {
     transform: rotate(180deg);
 }
 #header .nav_bar .menu_icon i {
@@ -236,7 +223,7 @@ body{
     color: var(--black);
     cursor: pointer;
 }
-#header .nav_bar .menu_icon i:hover{
+#header .nav_bar .menu_icon i:hover {
     color: var(--dark);
 }
 #header .nav_bar .menu ul li .sub-menu-service {
@@ -254,7 +241,7 @@ body{
     white-space: nowrap;
     z-index: 1000;
 }
-#header .nav_bar .menu ul li .sub-menu-service li a{
+#header .nav_bar .menu ul li .sub-menu-service li a {
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
@@ -265,7 +252,7 @@ body{
     line-height: 2px;
     border-bottom: 0.2px dashed var(--black);
 }
-#header .nav_bar .menu ul li .sub-menu-service li:hover{
+#header .nav_bar .menu ul li .sub-menu-service li:hover {
     background-color: var(--background) !important;
 }
 #header .nav_bar .menu ul li .megamenu {
@@ -283,43 +270,67 @@ body{
 #header .nav_bar .menu ul li:hover .megamenu {
     display: flex;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list{
+#header .nav_bar .menu ul li .megamenu .menu-list {
     padding-left: 5px;
     flex-wrap: wrap;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list{
+#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list {
     padding: 0px 0px !important;
     margin: 0px 10px !important;
     width: calc(33.33% - 20px) !important;
     height: auto;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list a{
+#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list a {
     padding: 10px 10px !important;
     margin: 0px 0px !important;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list:hover{
+#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list:hover {
     background-color: var(--background);
     border-radius: 8px;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list .img-icon img{
+#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list .img-icon img {
     width: 25px;
     padding-top: 3px;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list .sub_menu_content{
+#header
+    .nav_bar
+    .menu
+    ul
+    li
+    .megamenu
+    .menu-list
+    .sub_menu_list
+    .sub_menu_content {
     padding-left: 8px;
     flex-direction: column;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list .sub_menu_heading{
+#header
+    .nav_bar
+    .menu
+    ul
+    li
+    .megamenu
+    .menu-list
+    .sub_menu_list
+    .sub_menu_heading {
     font-size: 16px;
 }
-#header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list .sub_menu_desc{
+#header
+    .nav_bar
+    .menu
+    ul
+    li
+    .megamenu
+    .menu-list
+    .sub_menu_list
+    .sub_menu_desc {
     font-size: 13px;
     color: var(--dark);
 }
 @media only screen and (max-width: 992px) {
     #header .nav_bar .menu ul li .megamenu {
-            padding-right: 100px;
-        }
+        padding-right: 100px;
+    }
     #header .nav_bar .menu .about {
         display: none;
     }
@@ -330,14 +341,14 @@ body{
     }
 }
 @media only screen and (max-width: 576px) {
-    #header .logo a{
+    #header .logo a {
         font-size: 20px;
     }
     #header .nav_bar .menu_icon i {
         padding: 0px;
     }
     #header .nav_bar .menu {
-        padding: 0px;   
+        padding: 0px;
     }
     #header .menu .home {
         display: none;
@@ -347,11 +358,12 @@ body{
     #header .menu .home {
         display: none;
     }
-    #header button{
+    #header button {
         padding-left: 5px !important;
         padding-right: 5px !important;
     }
-    #header .menu .service , .hires{
+    #header .menu .service,
+    .hires {
         padding-left: 5px !important;
         padding-right: 5px !important;
     }
@@ -362,62 +374,62 @@ body{
   --------------------------------------------------------------*/
 
 .menu-container {
-  background-color: var(--white);
-  display: none;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 9999;
-  width: 300px;
-  height: 100vh;
-  overflow-y: auto;
+    background-color: var(--white);
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 300px;
+    height: 100vh;
+    overflow-y: auto;
 }
 .menu-container .menu-heading {
-  background-color: var(--black);
+    background-color: var(--black);
 }
 .menu-container .menu-title {
-  color: var(--heading);
-  padding: 20px 20px;
-  margin-bottom: .0rem;
-  font-weight: 900;
-  font-size: 24px;
+    color: var(--heading);
+    padding: 20px 20px;
+    margin-bottom: 0rem;
+    font-weight: 900;
+    font-size: 24px;
 }
 .menu-container .menu-list {
-  height: 82vh;
-  padding-right: 10px;
+    height: 82vh;
+    padding-right: 10px;
 }
 .menu-container .menu-list .menu-sub-heading {
-  padding: 12px 20px;
-  margin-bottom: unset !important;
-  font-weight: 600;
+    padding: 12px 20px;
+    margin-bottom: unset !important;
+    font-weight: 600;
 }
 .menu-container .menu-list .menu-bottom {
-  border-bottom: 2px solid var(--gray) !important;
+    border-bottom: 2px solid var(--gray) !important;
 }
 .menu-container .menu-list li {
-  list-style: none;
-  font-size: 14px;
+    list-style: none;
+    font-size: 14px;
 }
 .menu-container .menu-list a {
-  padding: 8px 20px;
-  text-decoration: none;
-  list-style: none;
-  font-size: 14px;
-  color: var(--black);
-  cursor: pointer;
+    padding: 8px 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    color: var(--black);
+    cursor: pointer;
 }
 .menu-container .menu-list a:hover {
-  background-color: var(--gray);
-  color: var(--black);
+    background-color: var(--gray);
+    color: var(--black);
 }
 .menu-container button i:hover {
-  color: var(--warning) !important;
+    color: var(--warning) !important;
 }
 
 /*--------------------------------------------------------------
   # service start
   --------------------------------------------------------------*/
-  .banner-fade-element {
+.banner-fade-element {
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
 }
@@ -635,13 +647,16 @@ body{
         padding: 10px 20px;
     }
 }
-  
+
 /*--------------------------------------------------------------
   # service start
   --------------------------------------------------------------*/
 
 #serivce {
-    padding: 80px 40px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .flip-box {
@@ -753,13 +768,22 @@ body{
 }
 @media only screen and (max-width: 992px) {
     #serivce {
-        padding: 80px 20px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
 /*--------------------------------------------------------------
 # features Section
 --------------------------------------------------------------*/
+#features {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 #features .icon-box {
     display: flex;
 }
@@ -784,7 +808,7 @@ body{
 }
 
 @media only screen and (max-width: 1200px) {
-    #features .feature_img img{
+    #features .feature_img img {
         display: none;
     }
 
@@ -793,44 +817,70 @@ body{
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    
+@media only screen and (max-width: 992px) {
+    #features {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
-.stats .stats-item {
+#stats {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#stats .stats-item {
     background-color: var(--surface-color);
     box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
     padding: 30px;
-  }
-  
-  .stats .stats-item i {
+}
+
+#stats .stats-item i {
     color: var(--accent-color);
     font-size: 42px;
     line-height: 0;
     margin-right: 20px;
-  }
-  
-  .stats .stats-item span {
+}
+
+#stats .stats-item span {
     color: var(--heading-color);
     font-size: 36px;
     display: block;
     font-weight: 600;
-  }
-  
-  .stats .stats-item p {
+}
+
+#stats .stats-item p {
     padding: 0;
     margin: 0;
     font-family: var(--heading-font);
     font-size: 16px;
-  }
+}
+
+@media only screen and (max-width: 992px) {
+    #stats {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
 /*--------------------------------------------------------------
   # portfolio start
   --------------------------------------------------------------*/
-  #portfolio .tap {
+#portfolio {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#portfolio .tap {
     background-color: #cbddef77;
     padding-left: 0px;
 }
@@ -840,7 +890,8 @@ body{
 }
 
 #portfolio .tap li.active {
-    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+    box-shadow: -6px -6px 10px 0px #f5f9fc,
+        4px 3px 15px 0px rgba(127, 163, 199, 0.3);
     background: linear-gradient(103deg, #e3edf7, #ffffff);
 }
 
@@ -903,14 +954,23 @@ body{
     }
 }
 
-
+@media only screen and (max-width: 992px) {
+    #portfolio {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
 /*--------------------------------------------------------------
   # award start
   --------------------------------------------------------------*/
-
 #award {
-    padding: 100px 0px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #award .award-title {
@@ -978,8 +1038,14 @@ body{
     padding: 2px 13px !important;
 }
 
-
-
+@media only screen and (max-width: 992px) {
+    #award {
+        padding-top: 20px;
+        padding-bottom: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
 /*--------------------------------------------------------------
   # Contact
@@ -1040,8 +1106,8 @@ body{
     border-color: var(--heading);
 }
 
-#contact .php-email-form input[type=text],
-#contact .php-email-form input[type=email] {
+#contact .php-email-form input[type="text"],
+#contact .php-email-form input[type="email"] {
     padding: 10px 15px;
 }
 
@@ -1049,7 +1115,7 @@ body{
     padding: 12px 15px;
 }
 
-#contact .php-email-form button[type=submit] {
+#contact .php-email-form button[type="submit"] {
     background: var(--button);
     border: 0;
     padding: 10px 30px;
@@ -1058,14 +1124,13 @@ body{
     border-radius: 4px;
 }
 
-#contact .php-email-form button[type=submit]:hover {
+#contact .php-email-form button[type="submit"]:hover {
     background: #5969f3;
 }
 
 #contact .info-box i {
     padding-top: 12px !important;
 }
-
 
 /*--------------------------------------------------------------
   # Footer  card start
@@ -1092,7 +1157,6 @@ body{
 }
 
 @media only screen and (max-width: 490px) {
-
     .contact_card {
         padding: 30px 20px !important;
     }
@@ -1120,33 +1184,6 @@ body{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
   # Footer start
   --------------------------------------------------------------*/
@@ -1154,7 +1191,7 @@ body{
     background-image: linear-gradient(135deg, #e8f7f6d2, #f5e9e9d7);
 }
 
-#footer .footer .logo img{
+#footer .footer .logo img {
     margin-top: -10px;
     width: 40%;
     padding-bottom: 25px;
@@ -1175,13 +1212,13 @@ body{
     padding-left: 0px;
 }
 
-#footer .footer .widget-link  li{
+#footer .footer .widget-link li {
     padding: 5px 0px !important;
 }
 #footer .footer .widget-content li {
     padding: 5px 0px !important;
 }
-#footer .footer .widget-link  li a{
+#footer .footer .widget-link li a {
     text-decoration: none;
     color: var(--black);
 }
@@ -1245,5 +1282,4 @@ body{
         width: 50% !important;
         padding-left: 50px !important;
     }
-
 }

@@ -19,14 +19,14 @@
                         <div class="info-box shadow-lg">
                             <i class="fa-solid fa-phone"></i>
                             <h3>Call Us</h3>
-                            <p>+880 1723629080<br>+880 1723629080</p>
+                            <p>+880 1723629080<br>+880 1811847665</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6">
                         <div class="info-box shadow-lg">
                             <i class="fa-regular fa-envelope-open"></i>
                             <h3>Email Us</h3>
-                            <p>infoalihasanbd@gmail.com<br>contact@example.com</p>
+                            <p>softqry@gmail.com<br>infoalihasanbd@gmail.com</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6">
@@ -43,7 +43,8 @@
                 <form action="" method="post" class="php-email-form ">
                     <div class="row gy-4">
                         <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                required="">
                         </div>
                         <div class="col-md-6 ">
                             <input type="email" class="form-control" name="email" placeholder="Your Email"
@@ -54,8 +55,7 @@
                                 required="">
                         </div>
                         <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                required=""></textarea>
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                         </div>
                         <div class="col-md-12 text-center">
                             <button type="submit">Send Message</button>
