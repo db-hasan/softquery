@@ -18,46 +18,28 @@
 }
 
 :root {
-    --background-color: #fff;
+    --background-color: rgba(10, 87, 87, 0.081);
+
     --default-color: #ffffff;
-    --heading-color: #ffffff;
-    --accent-color: #ec0606;
     --surface-color: #ffffff;
-    --contrast-color: #ffffff;
+    --contrast-color: #1c1c52;
 
-    --white: #fff;
-    --black: rgb(25, 25, 25);
-    --dark: #0000009a;
-    --gray: #22222227;
-    --border: #3e8da8;
-    --icon: #c72027;
-    --bg-color: #1c1c52;
-    --text-color: rgb(53, 53, 53);
-    --bg-form-color: #f5dbde94;
-    --bg-fcq-color: #f5dbde94;
+    --white-color: #fff;
+    --black-color: #000;
+    --heading-color: rgb(25, 25, 25);
+    --hover-color: #c72027;
+    --bg-hover-color: #22222227;
+    --text-color: #0000009a;
+    --border-color: #3e8da8;
+    --info-color: #37a001;
+    --danger-color: #c72027;
 
-    --background-color: #ffffff;
-    --default-color: #212529;
-    --heading-color: #1c1c52;
-    --accent-color: #e84545;
-    --surface-color: #ffffff;
-    --contrast-color: #ffffff;
-
-    --background: rgba(10, 87, 87, 0.081);
-    --white: #fff;
-    --black: #000;
-    --dark: #0000009a;
-    --gray: #22222227;
-    --primary: #0245bc;
-    --heading: #37a001;
-    --sub-heading: #000000b9;
-    --button: #4154f1;
     --box-shadow: -6px -6px 10px 0px #e9f4fc,
         4px 3px 15px 0px rgba(157, 193, 229, 0.842);
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--background-color);
 }
 
 .transparent-background {
@@ -113,7 +95,7 @@ body {
 .section-title span {
     font-size: 17px;
     font-weight: 300;
-    color: var(--icon);
+    color: var(--danger-color);
     letter-spacing: 1px;
     font-family: "Montserrat";
 }
@@ -121,7 +103,7 @@ body {
 .section-heading h2 {
     padding: 5px 0px;
     font-weight: 500;
-    color: var(--black);
+    color: var(--heading-color);
     letter-spacing: 1.5px;
     font-size: 36px;
     line-height: 2.9rem;
@@ -143,7 +125,7 @@ body {
     content: "";
     width: 50px;
     height: 3px;
-    background: var(--icon);
+    background: var(--danger-color);
     display: inline-block;
     margin-bottom: 4px;
     margin-right: 15px;
@@ -154,9 +136,9 @@ body {
   # header start
   --------------------------------------------------------------*/
 #header .nav {
-    background: var(--white);
-    color: var(--black);
-    border-bottom: 5px solid var(--border);
+    background: var(--white-color);
+    color: var(--black-color);
+    border-bottom: 5px solid var(--border-color);
 }
 #header .nav_bar {
     width: 100%;
@@ -187,20 +169,21 @@ body {
     padding: 20px 10px;
     height: 100%;
     cursor: pointer;
-    color: var(--black);
+    color: var(--black-color);
     font-size: 16px;
     font-weight: 500;
     position: relative;
 }
+
 #header .nav_bar .menu ul li a {
     padding: 20px 10px !important;
 }
 #header .nav_bar .menu ul li:hover {
-    color: var(--dark);
+    color: var(--hover-color);
 }
 #header .nav_bar .menu ul li a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--black-color);
     font-size: 16px;
     font-weight: 500;
 }
@@ -208,11 +191,11 @@ body {
     height: 100%;
     width: 22px;
     text-align: center;
-    color: var(--black);
+    color: var(--black-color);
     transition: all 0.3s ease;
 }
 #header .nav_bar .menu ul li a:hover {
-    color: var(--dark);
+    color: var(--hover-color);
 }
 #header .nav_bar .menu ul li:hover .arrow {
     transform: rotate(180deg);
@@ -220,18 +203,18 @@ body {
 #header .nav_bar .menu_icon i {
     line-height: 50px;
     font-size: 35px;
-    color: var(--black);
+    color: var(--black-color);
     cursor: pointer;
 }
 #header .nav_bar .menu_icon i:hover {
-    color: var(--dark);
+    color: var(--hover-color);
 }
 #header .nav_bar .menu ul li .sub-menu-service {
     position: absolute;
     top: 63px;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--white);
+    background: var(--white-color);
     border-radius: 0 0 4px 4px;
     display: none;
     padding: 0 !important;
@@ -250,16 +233,16 @@ body {
 }
 #header .nav_bar .menu ul li .sub-menu-service li {
     line-height: 2px;
-    border-bottom: 0.2px dashed var(--black);
+    border-bottom: 0.2px dashed var(--border-color);
 }
 #header .nav_bar .menu ul li .sub-menu-service li:hover {
-    background-color: var(--background) !important;
+    background-color: var(--contrast-color) !important;
 }
 #header .nav_bar .menu ul li .megamenu {
     position: absolute;
     top: 63px;
     transform: translateX(-50%);
-    background: var(--white);
+    background: var(--white-color);
     border-radius: 0 0 4px 4px;
     display: none;
     cursor: pointer;
@@ -285,7 +268,7 @@ body {
     margin: 0px 0px !important;
 }
 #header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list:hover {
-    background-color: var(--background);
+    background-color: var(--bg-hover-color);
     border-radius: 8px;
 }
 #header .nav_bar .menu ul li .megamenu .menu-list .sub_menu_list .img-icon img {
@@ -325,7 +308,7 @@ body {
     .sub_menu_list
     .sub_menu_desc {
     font-size: 13px;
-    color: var(--dark);
+    color: var(--text-color);
 }
 @media only screen and (max-width: 992px) {
     #header .nav_bar .menu ul li .megamenu {
@@ -374,7 +357,7 @@ body {
   --------------------------------------------------------------*/
 
 .menu-container {
-    background-color: var(--white);
+    background-color: var(--white-color);
     display: none;
     position: fixed;
     top: 0;
@@ -385,10 +368,10 @@ body {
     overflow-y: auto;
 }
 .menu-container .menu-heading {
-    background-color: var(--black);
+    background-color: var(--black-color);
 }
 .menu-container .menu-title {
-    color: var(--heading);
+    color: var(--info-color);
     padding: 20px 20px;
     margin-bottom: 0rem;
     font-weight: 900;
@@ -404,7 +387,7 @@ body {
     font-weight: 600;
 }
 .menu-container .menu-list .menu-bottom {
-    border-bottom: 2px solid var(--gray) !important;
+    border-bottom: 1px solid var(--contrast-color) !important;
 }
 .menu-container .menu-list li {
     list-style: none;
@@ -414,16 +397,16 @@ body {
     padding: 8px 20px;
     text-decoration: none;
     list-style: none;
-    font-size: 14px;
-    color: var(--black);
+    font-size: 16px;
+    color: var(--heading-color);
     cursor: pointer;
 }
 .menu-container .menu-list a:hover {
-    background-color: var(--gray);
-    color: var(--black);
+    background-color: var(--contrast-color);
+    color: var(--hover-color);
 }
 .menu-container button i:hover {
-    color: var(--warning) !important;
+    color: var(--danger-color) !important;
 }
 
 /*--------------------------------------------------------------
@@ -511,7 +494,7 @@ body {
     content: "";
     width: 70px;
     height: 3px;
-    background: var(--icon);
+    background: var(--danger-color);
     display: inline-block;
     margin-bottom: 4px;
     margin-right: 15px;
@@ -528,8 +511,8 @@ body {
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    color: var(--white);
-    background-color: var(--icon);
+    color: var(--white-color);
+    background-color: var(--danger-color);
     border: none;
     padding: 18px 30px;
     letter-spacing: 2px;
@@ -548,7 +531,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-color);
+    background-color: var(--contrast-color);
     transition: left 0.4s;
     z-index: -1;
 }
@@ -696,7 +679,7 @@ body {
 }
 
 .service-box {
-    background-color: var(--white);
+    background-color: var(--white-color);
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -710,16 +693,16 @@ body {
 
 .flip-box:hover .service-box {
     background-color: rgba(0, 0, 0, 0.555);
-    color: var(--white);
+    color: var(--white-color);
 }
 
 .service-box i {
-    color: var(--white);
+    color: var(--white-color);
     padding: 20px;
     border-radius: 50px;
     font-size: 50px;
     margin-bottom: 20px;
-    background-color: var(--icon);
+    background-color: var(--danger-color);
 }
 
 .service-box h5 {
@@ -751,13 +734,13 @@ body {
 }
 
 .service-box-back i {
-    color: var(--icon);
+    color: var(--danger-color);
     padding: 15px;
     border-radius: 50px;
     font-size: 50px;
     margin-bottom: 20px;
     margin-right: 20px;
-    background-color: var(--white);
+    background-color: var(--white-color);
 }
 
 .service-box-back h5 {
@@ -790,21 +773,21 @@ body {
 
 #features .icon-box h4 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 0 10px 0;
-    color: var(--heading);
+    color: var(--heading-color);
 }
 
 #features .icon-box i {
     font-size: 44px;
     line-height: 44px;
-    color: var(--primary);
+    color: var(--primary-color);
     margin-right: 15px;
 }
 
 #features .icon-box p {
     font-size: 15px;
-    color: var(--dark);
+    color: var(--text-color);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -858,7 +841,7 @@ body {
 #stats .stats-item p {
     padding: 0;
     margin: 0;
-    font-family: var(--heading-font);
+    font-family: var(--contrast-color-font);
     font-size: 16px;
 }
 
@@ -915,7 +898,7 @@ body {
     text-decoration: none;
     width: 120px;
     border-radius: 15px;
-    color: var(--white);
+    color: var(--white-color);
     font-size: 14px;
     font-weight: 500;
 }
@@ -934,19 +917,19 @@ body {
 }
 
 #portfolio .p_img {
-    border-bottom: 5px solid var(--border);
+    border-bottom: 5px solid var(--border-color);
 }
 
 #portfolio .p_comp a {
     padding: 0px 15px;
     text-decoration: none;
-    color: var(--black);
+    color: var(--heading-color);
     font-size: 16px;
     font-weight: 500;
 }
 
 #portfolio .p_comp a:hover {
-    color: var(--heading);
+    color: var(--contrast-color);
 }
 @media only screen and (max-width: 768px) {
     #portfolio .tap li {
@@ -978,8 +961,8 @@ body {
 }
 
 #award .card {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--white-color);
+    color: var(--heading-color);
     border-radius: unset;
     padding: 20px;
     border: unset !important;
@@ -1021,8 +1004,8 @@ body {
 }
 
 .owl-prev span {
-    background-color: var(--icon) !important;
-    color: var(--white) !important;
+    background-color: var(--danger-color) !important;
+    color: var(--white-color) !important;
     border-radius: 50%;
     padding: 2px 13px !important;
 }
@@ -1032,8 +1015,8 @@ body {
 }
 
 .owl-next span {
-    background-color: var(--icon) !important;
-    color: var(--white) !important;
+    background-color: var(--danger-color) !important;
+    color: var(--white-color) !important;
     border-radius: 50%;
     padding: 2px 13px !important;
 }
@@ -1060,13 +1043,13 @@ body {
 #contact .info-box i {
     font-size: 38px;
     line-height: 0;
-    color: var(--heading);
+    color: var(--info-color);
 }
 
 #contact .info-box h3 {
     font-size: 20px;
-    color: var(--black);
-    font-weight: 700;
+    color: var(--contrast-color);
+    font-weight: 500;
     margin: 20px 0 10px 0;
 }
 
@@ -1078,15 +1061,15 @@ body {
 }
 
 #contact .php-email-form {
-    background: var(--white);
+    background: var(--white-color);
     padding: 30px;
     height: 100%;
 }
 
 #contact .php-email-form .sent-message {
     display: none;
-    color: var(--white);
-    background: var(--heading);
+    color: var(--white-color);
+    background: var(--contrast-color);
     text-align: center;
     padding: 15px;
     margin-bottom: 24px;
@@ -1103,7 +1086,7 @@ body {
 
 #contact .php-email-form input:focus,
 #contact .php-email-form textarea:focus {
-    border-color: var(--heading);
+    border-color: var(--contrast-color);
 }
 
 #contact .php-email-form input[type="text"],
@@ -1119,7 +1102,7 @@ body {
     background: var(--button);
     border: 0;
     padding: 10px 30px;
-    color: var(--white);
+    color: var(--white-color);
     transition: 0.4s;
     border-radius: 4px;
 }
@@ -1153,7 +1136,7 @@ body {
 #footer-card .contact_content a {
     padding: 10px 10px;
     text-decoration: none;
-    color: var(--black);
+    color: var(--heading-color);
 }
 
 @media only screen and (max-width: 490px) {
@@ -1203,7 +1186,7 @@ body {
 
 #footer .footer .widget-heading {
     font-size: 18px;
-    color: var(--black);
+    color: var(--heading-color);
     padding-bottom: 20px;
 }
 
@@ -1220,7 +1203,7 @@ body {
 }
 #footer .footer .widget-link li a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--heading-color);
 }
 
 .footer form {
@@ -1232,7 +1215,7 @@ body {
 #footer .footer .subscribe {
     width: 100%;
     height: 55px;
-    background: var(--white);
+    background: var(--white-color);
     border-radius: 100px;
     padding: 0 30px;
     border: none;
@@ -1248,7 +1231,7 @@ body {
     top: 14px;
     line-height: 14px;
     font-size: 14px;
-    color: var(--white);
+    color: var(--white-color);
     cursor: pointer;
     border-radius: 100px;
     background-image: linear-gradient(135deg, #16f036, #7cf016ad);
@@ -1261,7 +1244,7 @@ body {
 #footer .payment_gateway {
     display: flex;
     justify-content: space-around;
-    border: 2px solid var(--white);
+    border: 2px solid var(--white-color);
     padding: 10px 5px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
