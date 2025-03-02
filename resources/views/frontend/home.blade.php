@@ -17,7 +17,8 @@
                             <div class="banner-content">
                                 <p>CONSULTING, DEVELOPMENT, TESTING & LIVE</p>
                                 <div class="banner-desc">
-                                    <h1 class="banner-fade-element banner-fade-left">We provide all sorts of business software and personalized software</h1>
+                                    <h1 class="banner-fade-element banner-fade-left">We provide all sorts of business
+                                        software and personalized software</h1>
                                     <div class="touch-apply">
                                         <button type="button">GET IN TOUCH</button>
                                     </div>
@@ -34,7 +35,8 @@
                                 <div class="text-center">
                                     <p>CONSULTING, DEVELOPMENT, TESTING & LIVE</p>
                                     <div class="banner-desc">
-                                        <h1 class="banner-fade-element banner-fade-left">Execute your ideas into powerful software solutions</h1>
+                                        <h1 class="banner-fade-element banner-fade-left">Execute your ideas into powerful
+                                            software solutions</h1>
                                         <div class="touch-apply">
                                             <button type="button">GET IN TOUCH</button>
                                         </div>
@@ -51,7 +53,8 @@
                             <div class="banner-content">
                                 <p>CONSULTING, DEVELOPMENT, TESTING & LIVE</p>
                                 <div class="banner-desc">
-                                    <h1 class="banner-fade-element banner-fade-left">Boost your online presence with our expert website development services.
+                                    <h1 class="banner-fade-element banner-fade-left">Boost your online presence with our
+                                        expert website development services.
                                     </h1>
                                     <div class="touch-apply">
                                         <button type="button">GET IN TOUCH</button>
@@ -73,7 +76,8 @@
                     </div>
                     <div class="section-heading">
                         <h2 id="fade-text-3" class="mb-2 pb-0">We offer a range of Services!</h2>
-                        <p class="service-text">Our company offers a comprehensive array of web development services to assist individuals & businesses through software, mobile apps, and website development.
+                        <p class="service-text">Our company offers a comprehensive array of web development services to
+                            assist individuals & businesses through software, mobile apps, and website development.
                         </p>
                     </div>
                 </div>
@@ -86,7 +90,9 @@
                                         <div class="text-center">
                                             <i class='bx bx-globe'></i>
                                             <h5>Website Development</h5>
-                                            <p class="service-text-font">Boost your online presence with our expert website development services. We create responsive, user-friendly websites tailored to your business needs. </p>
+                                            <p class="service-text-font">Boost your online presence with our expert website
+                                                development services. We create responsive, user-friendly websites tailored
+                                                to your business needs. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +104,9 @@
                                                 <i class='bx bx-globe'></i>
                                                 <h5>Website Development</h5>
                                             </div>
-                                            <p class="service-text-back">Boost your online presence with our expert website development services. We create responsive, user-friendly websites tailored to your business needs.  </p>
+                                            <p class="service-text-back">Boost your online presence with our expert website
+                                                development services. We create responsive, user-friendly websites tailored
+                                                to your business needs. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +119,9 @@
                                         <div class="text-center">
                                             <i class='bx bx-code-alt'></i>
                                             <h5>Software Development</h5>
-                                            <p class="service-text-font">We provide all types of business and personalized software based on your requirements. Execute your ideas into powerful software solutions.</p>
+                                            <p class="service-text-font">We provide all types of business and personalized
+                                                software based on your requirements. Execute your ideas into powerful
+                                                software solutions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +133,9 @@
                                                 <i class='bx bx-code-alt'></i>
                                                 <h5>Software Development</h5>
                                             </div>
-                                            <p class="service-text-back">We provide all types of business and personalized software based on your requirements. Execute your ideas into powerful software solutions.</p>
+                                            <p class="service-text-back">We provide all types of business and personalized
+                                                software based on your requirements. Execute your ideas into powerful
+                                                software solutions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +148,9 @@
                                         <div class="text-center">
                                             <i class='bx bxl-android'></i>
                                             <h5>App Development</h5>
-                                            <p class="service-text-font">Cross-Platform Mobile App Development, We create all kinds of mobile apps for platforms including iOS, Android and Windows.</p>
+                                            <p class="service-text-font">Cross-Platform Mobile App Development, We create
+                                                all kinds of mobile apps for platforms including iOS, Android and Windows.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +162,9 @@
                                                 <i class='bx bxl-android'></i>
                                                 <h5>App Development</h5>
                                             </div>
-                                            <p class="service-text-back">Cross-Platform Mobile App Development, We create all kinds of mobile apps for platforms including iOS, Android and Windows.</p>
+                                            <p class="service-text-back">Cross-Platform Mobile App Development, We create
+                                                all kinds of mobile apps for platforms including iOS, Android and Windows.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +177,9 @@
                                         <div class="text-center">
                                             <i class='bx bxs-bar-chart-alt-2'></i>
                                             <h5>Ads Boosting</h5>
-                                            <p class="service-text-font">Boost your business with our Facebook Ads service! Reach more customers, increase engagement, and drive sales with targeted campaigns tailored to your goals.</p>
+                                            <p class="service-text-font">Boost your business with our Facebook Ads service!
+                                                Reach more customers, increase engagement, and drive sales with targeted
+                                                campaigns tailored to your goals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -173,7 +191,9 @@
                                                 <i class='bx bxs-bar-chart-alt-2'></i>
                                                 <h5>Ads Boosting</h5>
                                             </div>
-                                            <p class="service-text-back">Boost your business with our Facebook Ads service! Reach more customers, increase engagement, and drive sales with targeted campaigns tailored to your goals.</p>
+                                            <p class="service-text-back">Boost your business with our Facebook Ads service!
+                                                Reach more customers, increase engagement, and drive sales with targeted
+                                                campaigns tailored to your goals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +207,9 @@
                                         <div class="text-center">
                                             <i class='bx bx-user-voice'></i>
                                             <h5>SEO Optimization</h5>
-                                            <p class="service-text-font">Enhance your website’s visibility with our SEO optimization services! Improve search rankings, drive organic traffic, and boost your online presence with tailored strategies.</p>
+                                            <p class="service-text-font">Enhance your website’s visibility with our SEO
+                                                optimization services! Improve search rankings, drive organic traffic, and
+                                                boost your online presence with tailored strategies.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +221,9 @@
                                                 <i class='bx bx-user-voice'></i>
                                                 <h5>SEO Optimization</h5>
                                             </div>
-                                            <p class="service-text-back">Enhance your website’s visibility with our SEO optimization services! Improve search rankings, drive organic traffic, and boost your online presence with tailored strategies.</p>
+                                            <p class="service-text-back">Enhance your website’s visibility with our SEO
+                                                optimization services! Improve search rankings, drive organic traffic, and
+                                                boost your online presence with tailored strategies.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +236,9 @@
                                         <div class="text-center">
                                             <i class='bx bx-pen'></i>
                                             <h5>UI/UX Graphics & Animation</h5>
-                                            <p class="service-text-font">Elevate your digital experience with our UI/UX graphics and animation services! We create intuitive designs and captivating animations that enhance user engagement and satisfaction.</p>
+                                            <p class="service-text-font">Elevate your digital experience with our UI/UX
+                                                graphics and animation services! We create intuitive designs and captivating
+                                                animations that enhance user engagement and satisfaction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -224,7 +250,9 @@
                                                 <i class='bx bx-pen'></i>
                                                 <h5>UI/UX Graphics & Animation</h5>
                                             </div>
-                                            <p class="service-text-back">Elevate your digital experience with our UI/UX graphics and animation services! We create intuitive designs and captivating animations that enhance user engagement and satisfaction.</p>
+                                            <p class="service-text-back">Elevate your digital experience with our UI/UX
+                                                graphics and animation services! We create intuitive designs and captivating
+                                                animations that enhance user engagement and satisfaction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +290,7 @@
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
                                     <h4>User interface Design</h4>
-                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                                    <p>Crafting intuitive and engaging user experiences for seamless interactions.
                                     </p>
                                 </div>
                             </div>
@@ -271,7 +299,7 @@
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
                                     <h4>Backend Development</h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    <p>Building robust and scalable server-side applications with efficiency.
                                     </p>
                                 </div>
                             </div>
@@ -279,24 +307,16 @@
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
-                                    <h4>Speed Optimization</h4>
-                                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                    <h4>Performance Optimization</h4>
+                                    <p>Enhancing speed and responsiveness for a smooth user experience.</p>
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box">
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
-                                    <h4>SEO Optimization</h4>
-                                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box">
-                                <i class="fa-brands fa-meetup"></i>
-                                <div>
-                                    <h4>Application Testing</h4>
-                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    <h4>Software Testing</h4>
+                                    <p>Ensuring bug-free and high-quality applications through rigorous testing.</p>
                                 </div>
                             </div>
 
@@ -304,7 +324,7 @@
                                 <i class="fa-brands fa-meetup"></i>
                                 <div>
                                     <h4>Content Uploads</h4>
-                                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                                    <p>Uploading, organizing, and maintaining digital content effortlessly.</p>
                                 </div>
                             </div>
 
@@ -317,7 +337,7 @@
 
 
         <!-- # stats Section -->
-        <section id="stats" 
+        <section id="stats"
             style="background-image: url({{ asset('images/bg-content-05.png') }}); background-size: cover;">
             <div class="container">
                 <div class="row gy-4">
@@ -370,7 +390,7 @@
 
 
         <!-- # portfolio Section -->
-        <section id="portfolio" 
+        <section id="portfolio"
             style="background-image: url({{ asset('images/bg-content-04.png') }}); background-position: left bottom; background-repeat: no-repeat;">
             <div class="container">
                 <div class="text-center fade-element fade-down">
@@ -379,7 +399,9 @@
                     </div>
                     <div class="section-heading">
                         <h2 id="fade-text-3" class="mb-2 pb-0">Showcasing Our Creativity</h2>
-                        <p class="service-text">We offer a diverse range of specialized software development services to meet the unique needs of businesses and professionals at various stages of their growth. Our core services include:
+                        <p class="service-text">We offer a diverse range of specialized software development services to
+                            meet the unique needs of businesses and professionals at various stages of their growth. Our
+                            core services include:
                         </p>
                     </div>
                 </div>
@@ -570,7 +592,7 @@
                             <div class="card-body p-2 px-3 d-flex align-items-center">
                                 <span><img src="https://retinasoft.com.bd/assets/img/its/coding.png" alt=""
                                         style="width: 50px;"></span>
-                                <span class="p_comp"><a href="#">Portfolio</a></span>
+                                <span class="p_comp"><a href="#">Business</a></span>
                             </div>
                         </div>
                     </div>
@@ -656,42 +678,6 @@
                             <div class="card-body">
                                 <div class="award-img">
                                     <img src="{{ asset('images/awards-5.png') }}" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-2">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <div class="award-img">
-                                    <img src="{{ asset('images/awards-6.png') }}" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-2">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <div class="award-img">
-                                    <img src="{{ asset('images/awards-7.png') }}" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-2">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <div class="award-img">
-                                    <img src="{{ asset('images/awards-9.png') }}" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-2">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <div class="award-img">
-                                    <img src="{{ asset('images/awards-6.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
