@@ -1,10 +1,16 @@
 <!----------- contact start------------->
 <section id="contact">
     <div class="container">
-        <header class="text-center section-header py-3 pt-4">
-            <h1 class="s_heading">Make a Contact</h1>
-            <p class="s_content">Let’s drop a message to make contact with SOFTxONE.</p>
-        </header>
+        <div class="text-center fade-element fade-down">
+            <div class="section-title">
+                <span>SOFT QUERY CONTACT</span>
+            </div>
+            <div class="section-heading">
+                <h2 id="fade-text-3" class="mb-2 pb-0">Make a Contact</h2>
+                <p class="service-text">Our company offers a comprehensive array of web development services to assist individuals & businesses through software, mobile apps, and website development.
+                </p>
+            </div>
+        </div>
         <div class="row gy-4">
             <div class="col-lg-6">
                 <div class="row gy-4">

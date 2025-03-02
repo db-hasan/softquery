@@ -459,6 +459,7 @@ body {
     }
 }
 
+
 .carousel-img {
     animation: zoomIn 10s ease-in-out infinite alternate;
 }
@@ -710,20 +711,20 @@ body {
     letter-spacing: 1px;
     font-size: 22px;
     margin-bottom: 20px;
-    color: #1c1c52;
+    color: var(--contrast-color);
     font-family: "Montserrat";
 }
 
 .service-text-font {
     font-size: 16px;
     font-weight: 300;
-    color: rgba(53, 53, 53, 0.88);
+    color: var(--text-color);
     font-family: "Roboto", "Open Sans";
 }
 .service-text-back {
     font-size: 17px;
     font-weight: 300;
-    color: rgb(229, 229, 229);
+    color: var(--white-color);
     font-family: "Roboto", "Open Sans";
 }
 
@@ -747,7 +748,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: var(--white-color);
 }
 @media only screen and (max-width: 992px) {
     #serivce {
@@ -772,10 +773,11 @@ body {
 }
 
 #features .icon-box h4 {
-    font-size: 20px;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
     margin: 0 0 10px 0;
-    color: var(--heading-color);
+    color: var(--contrast-color);
+    font-family: "Montserrat";
 }
 
 #features .icon-box i {

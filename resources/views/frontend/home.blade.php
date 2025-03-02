@@ -2,7 +2,7 @@
 @section('content')
     <main>
         <!-- # serivce Section -->
-        <div id="banner" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div id="banner" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true"
                     aria-label="Slide 1"></button>
@@ -15,11 +15,9 @@
                     <div class="carousel-caption">
                         <div class="container banner-fade-element banner-fade-up">
                             <div class="banner-content">
-                                <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p>
+                                <p>CONSULTING, DEVELOPMENT, TESTING & LIVE</p>
                                 <div class="banner-desc">
-                                    <h1 class="banner-fade-element banner-fade-left">We are bringing overseas education
-                                        within everyone’s
-                                        reach.</h1>
+                                    <h1 class="banner-fade-element banner-fade-left">We provide all sorts of business software and personalized software</h1>
                                     <div class="touch-apply">
                                         <button type="button">GET IN TOUCH</button>
                                     </div>
@@ -29,14 +27,14 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('/images/banner-02.jpg') }}" class="d-block w-100 carousel-img" alt="...">
+                    <img src="{{ asset('/images/banner-00.jpg') }}" class="d-block w-100 carousel-img" alt="...">
                     <div class="carousel-caption">
                         <div class="container banner-fade-element banner-fade-down">
                             <div class="banner-content w-100">
                                 <div class="text-center">
-                                    <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p>
+                                    <p>CONSULTING, DEVELOPMENT, TESTING & LIVE</p>
                                     <div class="banner-desc">
-                                        <h1 class="banner-fade-element banner-fade-left">Planning to study abroad?</h1>
+                                        <h1 class="banner-fade-element banner-fade-left">Execute your ideas into powerful software solutions</h1>
                                         <div class="touch-apply">
                                             <button type="button">GET IN TOUCH</button>
                                         </div>
@@ -47,14 +45,14 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src=" {{ asset('images/banner-03.png') }}" class="d-block w-100 carousel-img" alt="...">
+                    <img src=" {{ asset('images/banner-00.jpg') }}" class="d-block w-100 carousel-img" alt="...">
                     <div class="carousel-caption">
                         <div class="container banner-fade-element banner-fade-up">
                             <div class="banner-content">
-                                <p>COACHING, CONSULTING, TRAINING & KEYNOTES</p>
+                                <p>CONSULTING, DEVELOPMENT, TESTING & LIVE</p>
                                 <div class="banner-desc">
-                                    <h1 class="banner-fade-element banner-fade-left">A gateway to excellence in global
-                                        education.</h1>
+                                    <h1 class="banner-fade-element banner-fade-left">Boost your online presence with our expert website development services.
+                                    </h1>
                                     <div class="touch-apply">
                                         <button type="button">GET IN TOUCH</button>
                                     </div>
@@ -71,14 +69,11 @@
             <div class="container">
                 <div class="text-center fade-element fade-down">
                     <div class="section-title">
-                        <span>FEATURED SERVICES</span>
+                        <span>SOFT QUERY SERVICES</span>
                     </div>
                     <div class="section-heading">
-                        <h2 id="fade-text-3" class="mb-0 pb-0">We help to get Consultation!</h2>
-                        <p class="service-text">We offer a wide range of specialized services to meet the unique needs of
-                            students and
-                            professionals at different stages of their educational journey.
-                            Our core services include:
+                        <h2 id="fade-text-3" class="mb-2 pb-0">We offer a range of Services!</h2>
+                        <p class="service-text">Our company offers a comprehensive array of web development services to assist individuals & businesses through software, mobile apps, and website development.
                         </p>
                     </div>
                 </div>
@@ -89,13 +84,9 @@
                                 <div class="flip-box-front">
                                     <div class="service-box">
                                         <div class="text-center">
-                                            <i class='bx bx-cog'></i>
-                                            <h5>Education Counseling</h5>
-                                            <p class="service-text-font">Expert guidance to help you explore various
-                                                academic
-                                                options and
-                                                career paths, allowing you to make well-informed decisions for a successful
-                                                educational journey.</p>
+                                            <i class='bx bx-globe'></i>
+                                            <h5>Website Development</h5>
+                                            <p class="service-text-font">Boost your online presence with our expert website development services. We create responsive, user-friendly websites tailored to your business needs. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,14 +95,10 @@
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
-                                                <i class='bx bx-cog'></i>
-                                                <h5>Education Counseling</h5>
+                                                <i class='bx bx-globe'></i>
+                                                <h5>Website Development</h5>
                                             </div>
-                                            <p class="service-text-back">Expert guidance to help you explore various
-                                                academic
-                                                options and
-                                                career paths, allowing you to make well-informed decisions for a successful
-                                                educational journey.</p>
+                                            <p class="service-text-back">Boost your online presence with our expert website development services. We create responsive, user-friendly websites tailored to your business needs.  </p>
                                         </div>
                                     </div>
                                 </div>
@@ -122,12 +109,9 @@
                                 <div class="flip-box-front">
                                     <div class="service-box">
                                         <div class="text-center">
-                                            <i class='bx bxs-bank'></i>
-                                            <h5>Admission Process</h5>
-                                            <p class="service-text-font">From start to finish, we strive to provide
-                                                efficient
-                                                support, streamlining the
-                                                application process for universities across the world.</p>
+                                            <i class='bx bx-code-alt'></i>
+                                            <h5>Software Development</h5>
+                                            <p class="service-text-font">We provide all types of business and personalized software based on your requirements. Execute your ideas into powerful software solutions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,13 +120,10 @@
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
-                                                <i class='bx bxs-bank'></i>
-                                                <h5>Admission Process</h5>
+                                                <i class='bx bx-code-alt'></i>
+                                                <h5>Software Development</h5>
                                             </div>
-                                            <p class="service-text-back">From start to finish, we strive to provide
-                                                efficient
-                                                support, streamlining the
-                                                application process for universities across the world.</p>
+                                            <p class="service-text-back">We provide all types of business and personalized software based on your requirements. Execute your ideas into powerful software solutions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -153,11 +134,9 @@
                                 <div class="flip-box-front">
                                     <div class="service-box">
                                         <div class="text-center">
-                                            <i class='bx bxs-analyse'></i>
-                                            <h5>Visa Application</h5>
-                                            <p class="service-text-font">Receive expert assistance and continuous support
-                                                throughout your visa
-                                                application journey to ensure a seamless and prosperous experience.</p>
+                                            <i class='bx bxl-android'></i>
+                                            <h5>App Development</h5>
+                                            <p class="service-text-font">Cross-Platform Mobile App Development, We create all kinds of mobile apps for platforms including iOS, Android and Windows.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -166,12 +145,10 @@
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
-                                                <i class='bx bxs-analyse'></i>
-                                                <h5>Visa Application</h5>
+                                                <i class='bx bxl-android'></i>
+                                                <h5>App Development</h5>
                                             </div>
-                                            <p class="service-text-back">Receive expert assistance and continuous support
-                                                throughout your visa
-                                                application journey to ensure a seamless and prosperous experience.</p>
+                                            <p class="service-text-back">Cross-Platform Mobile App Development, We create all kinds of mobile apps for platforms including iOS, Android and Windows.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -183,10 +160,8 @@
                                     <div class="service-box">
                                         <div class="text-center">
                                             <i class='bx bxs-bar-chart-alt-2'></i>
-                                            <h5>Scholarship Facilities</h5>
-                                            <p class="service-text-font">Gain access to thorough scholarship information,
-                                                allowing you to fully
-                                                optimize your chances of securing financial support.</p>
+                                            <h5>Ads Boosting</h5>
+                                            <p class="service-text-font">Boost your business with our Facebook Ads service! Reach more customers, increase engagement, and drive sales with targeted campaigns tailored to your goals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -196,11 +171,9 @@
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
                                                 <i class='bx bxs-bar-chart-alt-2'></i>
-                                                <h5>Scholarship Facilities</h5>
+                                                <h5>Ads Boosting</h5>
                                             </div>
-                                            <p class="service-text-back">Gain access to thorough scholarship information,
-                                                allowing you to fully
-                                                optimize your chances of securing financial support.</p>
+                                            <p class="service-text-back">Boost your business with our Facebook Ads service! Reach more customers, increase engagement, and drive sales with targeted campaigns tailored to your goals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -213,9 +186,8 @@
                                     <div class="service-box">
                                         <div class="text-center">
                                             <i class='bx bx-user-voice'></i>
-                                            <h5>Travel Assistance</h5>
-                                            <p class="service-text-font">Hassle-free travel arrangements to kickstart your
-                                                educational adventure.</p>
+                                            <h5>SEO Optimization</h5>
+                                            <p class="service-text-font">Enhance your website’s visibility with our SEO optimization services! Improve search rankings, drive organic traffic, and boost your online presence with tailored strategies.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -225,10 +197,9 @@
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
                                                 <i class='bx bx-user-voice'></i>
-                                                <h5>Travel Assistance</h5>
+                                                <h5>SEO Optimization</h5>
                                             </div>
-                                            <p class="service-text-back">Hassle-free travel arrangements to kickstart your
-                                                educational adventure.</p>
+                                            <p class="service-text-back">Enhance your website’s visibility with our SEO optimization services! Improve search rankings, drive organic traffic, and boost your online presence with tailored strategies.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -239,10 +210,9 @@
                                 <div class="flip-box-front">
                                     <div class="service-box">
                                         <div class="text-center">
-                                            <i class='bx bx-globe'></i>
-                                            <h5>Pre-Departure Guidance and Post-Arrival Support</h5>
-                                            <p class="service-text-font">Assistance in securing comfortable and
-                                                suitable accommodation, enhancing the overall study experience.</p>
+                                            <i class='bx bx-pen'></i>
+                                            <h5>UI/UX Graphics & Animation</h5>
+                                            <p class="service-text-font">Elevate your digital experience with our UI/UX graphics and animation services! We create intuitive designs and captivating animations that enhance user engagement and satisfaction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -251,11 +221,10 @@
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
-                                                <i class='bx bx-globe'></i>
-                                                <h5>Pre-Departure Guidance and Post-Arrival Support</h5>
+                                                <i class='bx bx-pen'></i>
+                                                <h5>UI/UX Graphics & Animation</h5>
                                             </div>
-                                            <p class="service-text-back">Assistance in securing comfortable and
-                                                suitable accommodation, enhancing the overall study experience.</p>
+                                            <p class="service-text-back">Elevate your digital experience with our UI/UX graphics and animation services! We create intuitive designs and captivating animations that enhance user engagement and satisfaction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -271,10 +240,10 @@
             <div class="container">
                 <div class="text-center fade-element fade-down">
                     <div class="section-title">
-                        <span>FEATURED SERVICES</span>
+                        <span>SOFT QUERY FEATURED SERVICES</span>
                     </div>
                     <div class="section-heading">
-                        <h2 id="fade-text-3" class="mb-0 pb-0">We help to get Consultation!</h2>
+                        <h2 id="fade-text-3" class="mb-2 pb-0">Feature of Services</h2>
                         <p class="service-text">We offer a wide range of specialized services to meet the unique needs of
                             students and
                             professionals at different stages of their educational journey.
@@ -404,14 +373,11 @@
             <div class="container">
                 <div class="text-center fade-element fade-down">
                     <div class="section-title">
-                        <span>FEATURED SERVICES</span>
+                        <span>SOFT QUERY PORTFOLIO</span>
                     </div>
                     <div class="section-heading">
-                        <h2 id="fade-text-3" class="mb-0 pb-0">We help to get Consultation!</h2>
-                        <p class="service-text">We offer a wide range of specialized services to meet the unique needs of
-                            students and
-                            professionals at different stages of their educational journey.
-                            Our core services include:
+                        <h2 id="fade-text-3" class="mb-2 pb-0">Showcasing Our Creativity</h2>
+                        <p class="service-text">We offer a diverse range of specialized software development services to meet the unique needs of businesses and professionals at various stages of their growth. Our core services include:
                         </p>
                     </div>
                 </div>
