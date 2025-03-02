@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                                 <div class="flip-box-back"
-                                    style="background-image: url({{ asset('images/service-01.jpg ') }}); background-size: cover;">
+                                    style="background-image: url({{ asset('images/service-web.png ') }}); background-size: cover;">
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
@@ -116,7 +116,7 @@
                                     </div>
                                 </div>
                                 <div class="flip-box-back"
-                                    style="background-image: url({{ asset('images/service-02.jpg ') }}); background-size: cover;">
+                                    style="background-image: url({{ asset('images/service-soft.png ') }}); background-size: cover;">
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
@@ -141,7 +141,7 @@
                                     </div>
                                 </div>
                                 <div class="flip-box-back"
-                                    style="background-image: url({{ asset('images/service-04.jpg ') }}); background-size: cover;">
+                                    style="background-image: url({{ asset('images/service-app.png ') }}); background-size: cover;">
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
@@ -166,7 +166,7 @@
                                     </div>
                                 </div>
                                 <div class="flip-box-back"
-                                    style="background-image: url({{ asset('images/service-03.jpg ') }}); background-size: cover;">
+                                    style="background-image: url({{ asset('images/service-ads.jpg ') }}); background-size: cover;">
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
@@ -192,7 +192,7 @@
                                     </div>
                                 </div>
                                 <div class="flip-box-back"
-                                    style="background-image: url({{ asset('images/service-05.jpg ') }}); background-size: cover;">
+                                    style="background-image: url({{ asset('images/service-seo.jpg ') }}); background-size: cover;">
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">
@@ -217,7 +217,7 @@
                                     </div>
                                 </div>
                                 <div class="flip-box-back"
-                                    style="background-image: url({{ asset('images/service-06.jpg ') }}); background-size: cover;">
+                                    style="background-image: url({{ asset('images/service-uxui.png ') }}); background-size: cover;">
                                     <div class="service-box">
                                         <div class="service-box-back">
                                             <div class="d-flex align-items-center">

@@ -18,7 +18,7 @@
                         <div class="info-box shadow-lg">
                             <i class="fa-solid fa-location-dot "></i>
                             <h3>Address</h3>
-                            <p>Floor - 01, Ranar Plaza,<br>Nawabbari Rd, Bogura-5800</p>
+                            <p>House #2, Rode No. #3<br>Mohammadour, Dhaka Bangladesh</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6">

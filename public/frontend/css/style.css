@@ -1046,7 +1046,7 @@ body {
 #contact .info-box i {
     font-size: 38px;
     line-height: 0;
-    color: var(--info-color);
+    color: var(--contrast-color);
 }
 
 #contact .info-box h3 {
