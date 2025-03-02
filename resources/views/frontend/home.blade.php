@@ -317,7 +317,8 @@
 
 
         <!-- # stats Section -->
-        <section id="stats">
+        <section id="stats" 
+            style="background-image: url({{ asset('images/bg-content-05.png') }}); background-size: cover;">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-3 col-md-6 fade-element fade-down">
@@ -369,7 +370,8 @@
 
 
         <!-- # portfolio Section -->
-        <section id="portfolio">
+        <section id="portfolio" 
+            style="background-image: url({{ asset('images/bg-content-04.png') }}); background-position: left bottom; background-repeat: no-repeat;">
             <div class="container">
                 <div class="text-center fade-element fade-down">
                     <div class="section-title">
@@ -603,8 +605,7 @@
         </section>
 
         <!-- # award Section -->
-        <section id="award"
-            style="background-image: url( {{ asset('images/bg-content-05.png') }}); background-size: cover;">
+        <section id="award">
             <div class="container">
                 <div class="">
                     <div class="award-title pb-5">

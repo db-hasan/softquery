@@ -255,7 +255,7 @@
                             <a href="" class="logo" style="text-decoration: none;">
                                 <img src="{{ asset('images/logo.png') }}" alt="">
                             </a>
-                            <p class="sub_content pe-4">We specialize in converting your Vision about your website into
+                            <p class="sub_content pe-4 ">We specialize in converting your Vision about your website into
                                 Reality. Welcome to SOFT QUERY
                                 Limited, a specialist web design
                                 and development agency based in Bangladesh.</p>
