@@ -2,7 +2,7 @@
     <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('jquery/jquery-3.7.1.min.js') }} "></script>
     <script src="{{ asset('frontend/js/main.js') }}"></script>
-    
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -10,7 +10,7 @@
     <script>
         new PureCounter();
     </script>
-    
+
     <script>
         $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
