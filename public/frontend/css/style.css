@@ -1104,7 +1104,7 @@ body {
 }
 
 #contact .php-email-form button[type="submit"] {
-    background: var(--button);
+    background: #5969f3;
     border: 0;
     padding: 10px 30px;
     color: var(--white-color);
@@ -1113,7 +1113,7 @@ body {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-    background: #5969f3;
+    background:var(--contrast-color);
 }
 
 #contact .info-box i {
