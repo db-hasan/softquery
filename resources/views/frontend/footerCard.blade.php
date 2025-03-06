@@ -4,18 +4,16 @@
         <div class="row">
             <div class="col-lg-6 ">
                 <span class="pe-3">Connect With Us</span>
-                <a href=""><img src="{{ asset('images/Social-media-1.png') }}" alt=""></a>
-                <a href=""><img src="{{ asset('images/Social-media-2.png') }}" alt=""></a>
-                <a href=""><img src="{{ asset('images/Social-media-3.png') }}" alt=""></a>
-                <a href=""><img src="{{ asset('images/Social-media-4.png') }}" alt=""></a>
-                <a href=""><img src="{{ asset('images/Social-media-5.png') }}" alt=""></a>
-                <a href=""><img src="{{ asset('images/Social-media-6.png') }}" alt=""></a>
+                <a href="https://www.facebook.com/softqry/"><img src="{{ asset('images/Social-media-1.png') }}" alt="Facebook"></a>
+                <a href="https://www.instagram.com/softqry/"><img src="{{ asset('images/Social-media-2.png') }}" alt="Instragram"></a>
+                <a href="https://www.linkedin.com/softqry/"><img src="{{ asset('images/Social-media-3.png') }}" alt="Linkedin"></a>
+                <a href="https://wa.me/+8801723629080"><img src="{{ asset('images/Social-media-4.png') }}" alt="WhatsApp"></a>
             </div>
             <div class="col-lg-6">
                 <div class="pt-3 text-end contact_content">
-                    <a href="/index.html">Company Profile</a>
-                    <a href="/index.html">Abouts</a>
-                    <a href="/hires.html">Contact</a>
+                    <a href="">Company Profile</a>
+                    <a href="">Abouts</a>
+                    <a href="">Contact</a>
                 </div>
             </div>
         </div>
