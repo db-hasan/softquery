@@ -290,7 +290,7 @@
                         <div class="col-sm-7 col-md-6 col-lg-3 pb-5">
                             <h4 class="widget-heading">Contact info</h4>
                             <ul class="widget-content">
-                                <li><i class="fa-solid fa-location-dot me-2"></i> Mohammadour, Dhaka Bangladesh
+                                <li><i class="fa-solid fa-location-dot me-2"></i> Mohammadpur, Dhaka Bangladesh
                                 </li>
                                 <li><i class="fas fa-envelope me-2"></i><a class="text-dark"
                                         href="mailto:softqry@gmail.com">softqry@gmail.com</a></li>
